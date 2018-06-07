@@ -1,7 +1,8 @@
 ##############################################################
-# Homework #2
-# name: Daniel Delgado
-# sbuid: 109986180
+#Daniel Delgado
+#MIPS Steganography
+#Test the functions below in main.asm
+#INCOMPLETE FUNCTIONS:FMCDecrypt, fromMorse
 ##############################################################
 .text
 
@@ -443,7 +444,7 @@ FMCEncrypt:
 	jr $ra
 	
 ##############################
-# EXTRA CREDIT FUNCTIONS
+# INCOMPLETE FUNCTIONS
 ##############################
 
 FMCDecrypt:

@@ -48,7 +48,7 @@ FMCEncrypt_encryptBuffer: .space 100
 FMCEncrypt_size: .word 100
 
 # FMCDecrypt
-FMCDecrypt_header: .asciiz "\n\n********* FMCDecrypt *********\n"
+FMCDecrypt_header: .asciiz "\n\n********* FMCDecrypt (INCOMPLETE) *********\n"
 FMCDecrypt_ciphertext: .asciiz "AWHCQTUWFIJTEMNU"
 FMCDecrypt_phrase: .asciiz "Computer Science is cool!"
 FMCDecrypt_decryptBuffer: .space 100
@@ -56,7 +56,7 @@ FMCDecrypt_decryptBuffer: .space 100
 FMCDecrypt_size: .word 100
 
 # fromMorse
-fromMorse_header: .asciiz "\n\n********* fromMorse *********\n"
+fromMorse_header: .asciiz "\n\n********* fromMorse (INCOMPLETE) *********\n"
 fromMorse_morsecode: .asciiz " --x..x.--.x...x-.-.--x-.-.--"
 fromMorse_plaintextBuffer: .space 30
 .align 2
